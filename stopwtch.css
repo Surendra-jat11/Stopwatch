@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(255, 255, 255); */
+    background-color: rgb(255, 255, 255);
+    
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: column;
+    /* background-image: url('https://rare-gallery.com/mocahbig/394710-wallpaper-solar-system-planet-simple-minimalist.jpg'); */
+     background-size: contain;
+     padding: 20px;
+    
+}
+
+.stopwatch_wrapper {
+    width: 400px;
+    height: 550px;
+    /* background-color: rgb(255, 255, 255); */
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 1px 1px 20px rgb(214, 214, 214); */
+    box-shadow: -2px -2px 20px rgb(255, 255, 255) , 1px 1px 20px silver;
+    margin: 10px;
+
+   
+
+}
+
+#stopwatch_display {
+    width: 70%;
+    height: 50%;
+    border: 8px solid aqua;
+    
+
+    margin-bottom: 60px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px silver;
+    display: flex;
+    
+   
+    justify-content: center;
+    align-items: center;
+
+   
+}
+#stopwatch_display p {
+    margin: 2px;
+}
+
+#startbtn {
+    width: 69px;
+    height: 69px;
+    background-color: rgb(203, 255, 196);
+    font-size: 18px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 1px rgb(201, 201, 201);
+    margin: 10px;
+
+    background-color: greenyellow;
+    border: 1px solid  rgb(125, 209, 0);
+}
+
+#stopbtn {
+    width: 65px;
+    height: 65px;
+    background-color: rgb(203, 255, 196);
+    font-size: 18px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 1px rgb(201, 201, 201);
+    margin: 10px;
+    background-color: rgb(255, 94, 1);
+    border: 1px solid  rgb(201, 74, 0);
+
+}
+
+#resetbtn {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(203, 255, 196);
+    font-size: 18px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 1px rgb(201, 201, 201);
+    margin: 10px;
+    background-color: silver;
+    border: 1px solid rgb(143, 143, 143);
+
+}
